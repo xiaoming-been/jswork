@@ -1,6 +1,5 @@
 
 let endseconds= new Date().getTime() + 15 * 1000;
-
 let d = h = m = s = 0;
 
 let id = setInterval(seckill,1000);
