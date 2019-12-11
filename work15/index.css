@@ -109,7 +109,7 @@ cart-add:hover {
     top: 1px;
 }
 
-.cart-bottom-price {
+.cart-total-price {
     color: #FF3334;
     font-weight: bold;
     font-size: 16px;
