@@ -5,4 +5,9 @@ $('#toRight').click(function () {
 $('#toLeft').click(function () {
     $('#left>select').append($('#right>select>option:selected'));
 });
-$('#toAllRight').click
+$('#toAllRight').click(function () {
+    $('#right>select').append($('#left>select>option'));
+});
+$('#toAllLeft').click(function () {
+    $('#left>select').append($('#right>select>option'));
+});
