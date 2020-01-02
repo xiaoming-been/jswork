@@ -61,6 +61,16 @@ $(function () {
                 left: 0
             });
         }
-        $
+        $('.hot').stop().animate({
+            left: -i * width
+        }, speed);
     }
-})
+
+    function dotChange() {
+        if (i == $('.hot li').length - 1) {
+            $('.dot li').eq(0).addClass('on').siblings().removeClass('on');
+        } else {
+            $('.dot li').eq(i).addClass('on').siblings().removeClass('on');
+        }
+    }
+});
